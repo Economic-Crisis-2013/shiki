@@ -142,6 +142,7 @@ export type Lang =
   | 'objective-cpp'
   | 'ocaml'
   | 'pascal'
+  | 'paradox' | 'pdx' | 'paradoxscript'
   | 'perl'
   | 'php'
   | 'plsql'
