@@ -92,6 +92,7 @@ export type Lang =
   | 'objective-cpp'
   | 'ocaml'
   | 'pascal'
+  | 'paradox' | 'pdx' | 'paradoxscript'
   | 'perl'
   | 'php'
   | 'plsql'
@@ -782,6 +783,13 @@ export const languages: ILanguageRegistration[] = [
     path: 'python.tmLanguage.json',
     samplePath: 'python.sample',
     aliases: ['py']
+  },
+  {
+    id: 'paradox',
+    scopeName: 'source.txt',
+    path: 'paradox.tmLanguage.json',
+    samplePath: 'paradox.sample',
+    aliases: ['pdx', 'paradoxscript']
   },
   {
     id: 'r',

@@ -322,6 +322,7 @@ export const languageAliases = {
   'objective-c': ['objc'],
   powershell: ['ps', 'ps1'],
   pug: ['jade'],
+  paradox: ['pdx', 'paradoxscript'],
   python: ['py'],
   raku: ['perl6'],
   ruby: ['rb'],
